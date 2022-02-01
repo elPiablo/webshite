@@ -1,0 +1,17 @@
+nav li a:hover {
+    border: 1px solid green;
+    color: darkblue;
+  
+}
+
+h1 {
+    font-style: italic;
+    color: magenta;
+}
+
+p {
+    width: 400px;
+    /* height: 200px; */
+    font-family: sans-serif;
+    color: #8b008b;
+}           

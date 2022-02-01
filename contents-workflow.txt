@@ -1,4 +1,5 @@
-webshites for gobshites
+# webshite
+webshites 4 gobshites
 
 **Q**. What is the actual purpose of this exercise? 
 
@@ -24,7 +25,7 @@ _Home and away_
 4. influencers on societal matters and environmental
 
 Organisations I'm affiliated with
-_Who's ye Mama?_
+_Who's ye Momma?_
 
 5. music
 6. socio-environment
@@ -56,3 +57,4 @@ Just going to start freestyling as I build out the HTML and see if I can get a f
 necessary to have in the HTML code qua styling (e.g. creating tables for certain elements) or 
 what should or could be better in the CSS code file (e.g. styling the elements themselves as opposed  
 to creating unnecessary HTML code)
+
