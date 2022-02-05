@@ -1,6 +1,51 @@
-nav li a:hover {
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    padding: 20px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FC3agyROPAPhe1BFNndM4SuiSxJk%3D%2Ffit-in%2F600x596%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2594147-1479415867-8730.jpeg.jpg&f=1&nofb=1");
+} 
+
+.content {
+    width: 70%;
+    margin: 20px auto;
+    /* overflow: scroll; */
+}
+
+nav a:hover {
     border: 1px solid green;
     color: darkblue;
+    
+}
+
+nav span {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90px;
+    display: inline-block;
+    /* list-style: none; */
+
+}
+
+/* need to check if this doesn't 
+override 'nav' rules */
+nav {
+    text-align: center;
+    display: block;
+    /* margin: 10px 0px; */
+    /* padding: 0;  */
+}
+
+#ejit {
+    background-image: url("http://wallup.net/wp-content/uploads/2017/03/28/436367-ultra-wide-photography-nature.jpg")
+    /* how do I get this image to display???
+    this width and height are not doing it.... */
+    /* height: 200px;
+    width: 400px; */
+    /* max-width: 800px; */
 }
 /* for mobile device: */
 @ media screen and (max-width: 600px) {
@@ -10,26 +55,32 @@ nav li a:hover {
 /* for desktop: */
 @ media screen and (min-width: 601px) {
     font-size: 12px;
-}
+} 
 
-body{
-    padding: 12px;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FC3agyROPAPhe1BFNndM4SuiSxJk%3D%2Ffit-in%2F600x596%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2594147-1479415867-8730.jpeg.jpg&f=1&nofb=1");
+body {
+    
 }
 
 h1 {
     font-style: italic;
     color: magenta;
     /* font-style: embedded; */
+    /*need to restrict bottom border width...
+    ....I can do this with underline, no doubt*/
+    /* border: 1px dotted magenta;
+    width: 535px;
+    height: 50px; */
+    /*paddding screws this up*/
+    /* padding: px; */
 }
 
 p {
-    width: 400px;
+    /* width: 400px; */
     /* height: 180px; */
     font-family: sans-serif;
-    color: #8b008b;
-    background-color: white;
-    opacity: 40%;
+    color: #bd48bd;
+    background-color: rgb(47, 83, 104);
+    opacity: 70%;
     /* radius: 30%; */
     padding: 10px;
     
