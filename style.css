@@ -1,17 +1,36 @@
 nav li a:hover {
     border: 1px solid green;
     color: darkblue;
-  
+}
+/* for mobile device: */
+@ media screen and (max-width: 600px) {
+    font-size: 8px;
+}
+
+/* for desktop: */
+@ media screen and (min-width: 601px) {
+    font-size: 12px;
+}
+
+body{
+    padding: 12px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FC3agyROPAPhe1BFNndM4SuiSxJk%3D%2Ffit-in%2F600x596%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2594147-1479415867-8730.jpeg.jpg&f=1&nofb=1");
 }
 
 h1 {
     font-style: italic;
     color: magenta;
+    /* font-style: embedded; */
 }
 
 p {
     width: 400px;
-    /* height: 200px; */
+    /* height: 180px; */
     font-family: sans-serif;
     color: #8b008b;
+    background-color: white;
+    opacity: 40%;
+    /* radius: 30%; */
+    padding: 10px;
+    
 }           
