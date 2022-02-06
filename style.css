@@ -11,8 +11,10 @@ body {
 
 .content {
     width: 70%;
-    margin: 20px auto;
-    /* overflow: scroll; */
+    margin: 50px auto;
+    overflow: scroll;
+    height: 500px;
+    width: 500px;
 }
 
 nav a:hover {
