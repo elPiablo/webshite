@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
     width: 100%;
+    border-style: dashed;
+    color: red;
+    border-width: 1px; 
 }
+
 
 body {
     text-align: center;
@@ -41,14 +45,32 @@ nav {
     /* padding: 0;  */
 }
 
-#ejit {
+#eejit {
     background-image: url("http://wallup.net/wp-content/uploads/2017/03/28/436367-ultra-wide-photography-nature.jpg")
+    background-position: center;
+    background-size: cover;
     /* how do I get this image to display???
     this width and height are not doing it.... */
     /* height: 200px;
     width: 400px; */
     /* max-width: 800px; */
+    /* margin: 0 auto;  */
 }
+
+#eejit h1 {
+    font-style: italic;
+    color: magenta;
+}
+/* h1 {
+    font-style: embedded; 
+    need to restrict bottom border width...
+    ....I can do this with underline, no doubt
+    border: 1px dotted magenta;
+    width: 535px;
+    height: 50px; 
+    paddding screws this up
+    padding: px;
+} */
 /* for mobile device: */
 @ media screen and (max-width: 600px) {
     font-size: 8px;
@@ -62,19 +84,14 @@ nav {
 body {
     
 }
-
-h1 {
-    font-style: italic;
-    color: magenta;
-    /* font-style: embedded; */
-    /*need to restrict bottom border width...
-    ....I can do this with underline, no doubt*/
-    /* border: 1px dotted magenta;
-    width: 535px;
-    height: 50px; */
-    /*paddding screws this up*/
-    /* padding: px; */
+/* 
+scroll-bar {
+    target:
 }
+
+
+transition: 150ms linear; */
+
 
 p {
     /* width: 400px; */
