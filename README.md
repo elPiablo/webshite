@@ -24,7 +24,8 @@ _Home and away_
 4. influencers on societal matters and environmental
 
 Organisations I'm affiliated with
-_Who's ye Mama?_
+
+_Who's pullin' them strings then?_
 
 5. music
 6. socio-environment
